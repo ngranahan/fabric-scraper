@@ -2,7 +2,7 @@
 A little web scraper that sends a text alert when fabric is back in stock
 
 # Serverless
-An AWS Lambda function is configured to run the scraper using the [Serverless Framework](https://www.serverless.com/framework/docs/).
+An AWS Lambda function is configured to run the scraper using the [Serverless Framework](https://www.serverless.com/framework/docs/). Run the project locally with `serverless invoke local --function productIsAvailable` and deploy to AWS with `serverless deploy`.
 
 # AWS
 The AWS Lambda function is triggered daily via AWS Event Bridge. Credentials are configured as Lambda env variables.
